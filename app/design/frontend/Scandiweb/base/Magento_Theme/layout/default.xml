@@ -1,0 +1,19 @@
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_layout.xsd">
+    <referenceContainer name="page.wrapper">
+        <container
+            name="super.header.container"
+            label="Super Header Container"
+            before="header.container"
+            as="super_header"
+            htmlTag="div"
+            htmlClass="super-header"
+        >
+            <block
+                class="Magento\Framework\View\Element\Template"
+                name="super.info.block"
+                as="super_info"
+                template="Magento_Theme::info.phtml"
+            />
+        </container>
+    </referenceContainer>
+</layout>
