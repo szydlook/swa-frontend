@@ -16,4 +16,6 @@
             />
         </container>
     </referenceContainer>
+
+    <move element="form.subscribe" destination="page.bottom.container" />
 </layout>
