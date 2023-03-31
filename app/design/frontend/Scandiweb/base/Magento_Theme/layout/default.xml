@@ -9,6 +9,7 @@
             htmlClass="super-header"
         >
             <block
+                ifconfig="carriers/freeshipping/active"
                 class="Magento\Framework\View\Element\Template"
                 name="super.info.block"
                 as="super_info"
